@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.act_Get_Offline_Signature">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerAdView_13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id_AGMA_13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Please type your signature.\n(Will strictly be used for registration reporting purposes)."
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannerAdView_13" />
+
+    <com.kyanogen.signatureview.SignatureView
+        android:id="@+id/sigoff_sign_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:foreground="@drawable/background_spinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <ImageView
+        android:id="@+id/sigoff_imgbtn_clear2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/imgbutton_background"
+        app:layout_constraintStart_toStartOf="@+id/sigoff_sign_view"
+        app:layout_constraintTop_toTopOf="@+id/sigoff_sign_view"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    <ImageView
+        android:id="@+id/sigoff_imgbtn_done"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/imgbutton_background"
+        app:layout_constraintEnd_toEndOf="@+id/sigoff_sign_view"
+        app:layout_constraintTop_toTopOf="@+id/sigoff_sign_view"
+        app:srcCompat="@drawable/ic_baseline_save_24" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Clear"
+        android:textColor="@color/yellow_700"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/sigoff_imgbtn_clear2"
+        app:layout_constraintStart_toStartOf="@+id/sigoff_imgbtn_clear2"
+        app:layout_constraintTop_toBottomOf="@+id/sigoff_imgbtn_clear2" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Save"
+        android:textColor="@color/yellow_700"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/sigoff_imgbtn_done"
+        app:layout_constraintStart_toStartOf="@+id/sigoff_imgbtn_done"
+        app:layout_constraintTop_toBottomOf="@+id/sigoff_imgbtn_done" />
+</androidx.constraintlayout.widget.ConstraintLayout>

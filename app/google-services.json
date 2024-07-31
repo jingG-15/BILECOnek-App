@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "971859977031",
+    "project_id": "bileconek-mobile",
+    "storage_bucket": "bileconek-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971859977031:android:f41ac27aa1e3d1bedf2262",
+        "android_client_info": {
+          "package_name": "com.holanda.bilecoagmaonlineregistration2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971859977031-psjib6onvc3kkoenc41m3enk51c9q54u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.holanda.bilecoagmaonlineregistration2021",
+            "certificate_hash": "f957f056132606290ac7c1f96de3b2ab33d46f92"
+          }
+        },
+        {
+          "client_id": "971859977031-btj3rru3qdf30vfges1gv43g9hpp77cu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdfc7fZ1pP5znNhiYK27KPRWQk0RRqZXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971859977031-btj3rru3qdf30vfges1gv43g9hpp77cu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.act_Main_Menu">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerAdView_Main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id_Main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_txt_log_State"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Logged in as"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@id/bannerAdView_Main" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannerAdView_Main"
+        app:srcCompat="@drawable/logo_4" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/main_img_scan_Bar_Code"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/barcode_search"
+                android:contentDescription="TODO"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Scan_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="Registration via Power Bill Scanner"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_manual_search"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/manual_search"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Manual_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="Manual Account Search"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_registered_list"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/view_reg"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_registered_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="View Registration List"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_admin_stats"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/view_reg_stats"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_admin_stats_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="View Registration Count"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_stats"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/stats"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Stats_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="View Profile Stats"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_QR_Scanner"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/qr_search"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_QR_Scanner_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="Onsite Attendance Scanner"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_Capture_Offline_Signature"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/offline_sign"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Cap_Off_Sign_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="Capture Offline Signature"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_facebook_live"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bil_facebook"
+                android:foreground="@drawable/backgrund_img_border"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Manual_Label2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="48dp"
+                android:text="Go to BILECO Facebook page\nto view live broadcast."
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_log_in"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backgrund_img_border"
+                android:foreground="@drawable/log_in"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Login_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:text="Log in"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <ImageButton
+                android:id="@+id/main_img_log_out"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/backgrund_img_border"
+                android:foreground="@drawable/log_out"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/main_txt_Logout_Label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:text="Log out"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

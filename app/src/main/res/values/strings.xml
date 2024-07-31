@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">BILECOnek Mobile</string>
+
+
+    <string name="banner_ad_unit_id_Main">ca-app-pub-2262826848290210/4610718689</string>
+    <string name="banner_ad_unit_id_AGMA_1">ca-app-pub-2262826848290210/6066629953</string>
+    <string name="banner_ad_unit_id_AGMA_2">ca-app-pub-2262826848290210/1552669878</string>
+    <string name="banner_ad_unit_id_AGMA_3">ca-app-pub-2262826848290210/7667292713</string>
+    <string name="banner_ad_unit_id_AGMA_4">ca-app-pub-2262826848290210/3643646598</string>
+    <string name="banner_ad_unit_id_AGMA_5">ca-app-pub-2262826848290210/2482608162</string>
+    <string name="banner_ad_unit_id_AGMA_6">ca-app-pub-2262826848290210/9977954809</string>
+    <string name="banner_ad_unit_id_AGMA_7">ca-app-pub-2262826848290210/6038709797</string>
+    <string name="banner_ad_unit_id_AGMA_8">ca-app-pub-2262826848290210/6860551462</string>
+    <string name="banner_ad_unit_id_AGMA_9">ca-app-pub-2262826848290210/9374457178</string>
+    <string name="banner_ad_unit_id_AGMA_10">ca-app-pub-2262826848290210/5578682398</string>
+    <string name="banner_ad_unit_id_AGMA_11">ca-app-pub-2262826848290210/2066273794</string>
+    <string name="banner_ad_unit_id_AGMA_12">ca-app-pub-2262826848290210/7296636901</string>
+    <string name="banner_ad_unit_id_AGMA_13">ca-app-pub-2262826848290210/4088121264</string>
+    <string name="banner_ad_unit_id_AGMA_14">ca-app-pub-2262826848290210/6331141222</string>
+
+
+
+<!--    <string name="Webshost_IP">bileco36thagma.ddns.net</string>-->
+<!--    <string name="Net_IP_Check">bileco36thagma.ddns.net</string>-->
+
+
+<!--    <string name="Webhost_GetAccountMatches">http://222.127.55.108:8081/getaccountmatches</string>-->
+<!--    <string name="Webhost_GetAccountInfo">http://222.127.55.108:8081/getaccountinfo</string>-->
+
+
+    <string name="Webshost_IP">http://192.168.1.240</string>
+    <string name="Net_IP_Check">192.168.1.240</string>
+
+
+
+    <!--    <string name="Webhost_GetAccountMatches">http://192.168.1.251:8081/getaccountmatches</string>-->
+    <!--    <string name="Webhost_GetAccountInfo">http://192.168.1.251:8081/getaccountinfo</string>-->
+
+<!--    <string name="Webshost_IP">192.168.0.247:8080</string>-->
+    <!--    <string name="Webhost_GetAccountMatches">http://192.168.1.251:8081/getaccountmatches</string>-->
+    <!--    <string name="Webhost_GetAccountInfo">http://192.168.1.251:8081/getaccountinfo</string>-->
+
+
+
+    <string name="Photo_Message">Take a photo of any valid ID of the BILECO Account Holder such as the following:\n\n
+
+        -Philippine passport\n
+        -SSS UMID Card\n
+        -Driver\'s license\n
+        -PhilHealth ID\n
+        -TIN Card\n
+        -Postal ID\n
+        -Voter\'s ID\n
+        -Professional Regulation Commission ID\n
+        -Senior Citizen ID\n
+        -OFW ID\n\n
+
+        This information is required for validation of details and for claiming of prizes during the raffle event.</string>
+
+
+    <string name="consent_agreement"><![CDATA[<strong>Biliran Electric Cooperative, Inc.</strong> shall protect the data that you provided in compliance with the Data Privacy Law and its implementing rules and regulations.
+        The Company will not collect, disclose or process  personal  data,  including  data  that  may  be  classified  as  personal  information  and/or  sensitive personal information unless you
+        voluntarily choose to provide us with it and give your consent thereto, or unless  such  disclosure  is  required  by  applicable  laws  and  regulations.<br><br>
+        By clicking <strong>`I Agree`</strong>, you confirm that you freely and voluntarily give consent to the collection of data, which may include personal information and/or sensitive information set
+        out in this form and/or otherwise provided by you or possessed by the Company for one or more purpose as stated below. The Company shall use the Data for the following purpose:<br><br>
+
+        a. Capture of Digital Signature, Photo of a valid ID, Contact Details and Personal Information related to your BILECO Account strictly for the purpose of generating reports required by the
+            National Electrification Agency (NEA) in relation with the upcoming online Annual General Membership Assembly attendance generation.<br><br>
+
+        b. Keep records of the data mentioned in the previous item to opt out with the face-to-face AGMA in relation with the current pandemic situation to avoid transmission of COVID-19.<br><br>
+
+        You hereby authorize <strong>BILECO</strong> to collect and process the data indicated herein for the purpose of effecting control
+        of the COVID-19 infection and the ease of participating with the event of the company. You understand that your personal information is protected by <strong>RA 10173, Data Privacy Act of 2012</strong><br><br><br>]]></string>
+
+    <string name="title_activity_act__ad_mob">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Register Again</string>
+
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+
+
+    <string name="Login_Label">Registration Warriors\' Login</string>
+    <string name="Save_File_Label">Save Signature</string>
+
+
+    <string name="ShowAd">True</string>
+
+</resources>

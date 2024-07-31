@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.act_Display_For_Reg">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/bannerAdView_1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id_AGMA_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Billing Address:"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ver_txt_Billing_Address"
+        app:layout_constraintEnd_toStartOf="@+id/ver_txt_Billing_Address"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ver_txt_Billing_Address" />
+
+    <TextView
+        android:id="@+id/ver_txt_Class"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Account Class Here"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/ver_txt_Billing_Address" />
+
+    <TextView
+        android:id="@+id/ver_txt_Mem_Number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Membership Number Here"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/ver_txt_Account_Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Account Name Here"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ver_txt_Account_Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Account Name:"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ver_txt_Account_Name"
+        app:layout_constraintEnd_toStartOf="@+id/ver_txt_Account_Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ver_txt_Account_Name" />
+
+    <TextView
+        android:id="@+id/ver_txt_Account_Number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Account Number Here"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ver_txt_Mem_Number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Account Number:"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ver_txt_Account_Number"
+        app:layout_constraintEnd_toStartOf="@+id/ver_txt_Account_Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ver_txt_Account_Number" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Mem. #:"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ver_txt_Mem_Number"
+        app:layout_constraintEnd_toStartOf="@+id/ver_txt_Mem_Number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ver_txt_Mem_Number" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Account Class:"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ver_txt_Class"
+        app:layout_constraintEnd_toStartOf="@+id/ver_txt_Class"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ver_txt_Class" />
+
+    <TextView
+        android:id="@+id/ver_txt_Billing_Address"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Address Here"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/ver_txt_Mem_Number" />
+
+    <TextView
+        android:id="@+id/ver_txt_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Is this your BILECO Account Details?\nPlease check the following:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ver_txt_Account_Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerAdView_1" />
+
+    <Button
+        android:id="@+id/ver_btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ver_btn_cancel"
+        app:layout_constraintTop_toBottomOf="@+id/ver_txt_Class" />
+
+    <Button
+        android:id="@+id/ver_btn_cancel"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Cancel"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/ver_btn_register"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ver_txt_Class" />
+
+    <Button
+        android:id="@+id/ver_btn_Return"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/reg_btn_style"
+        android:text="Return to Registration"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ver_txt_Class" />
+</androidx.constraintlayout.widget.ConstraintLayout>
