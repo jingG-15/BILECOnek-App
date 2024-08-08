@@ -28,8 +28,8 @@
 <!--    <string name="Webhost_GetAccountInfo">http://222.127.55.108:8081/getaccountinfo</string>-->
 
 
-    <string name="Webshost_IP">http://10.0.1.240</string>
-    <string name="Net_IP_Check">10.0.1.240</string>
+    <string name="Webshost_IP">http://10.0.1.248</string>
+    <string name="Net_IP_Check">10.0.1.248</string>
 
 <!--    <string name="Webshost_IP">https://bileco36thagma.ddns.net</string>-->
 <!--    <string name="Net_IP_Check">https://bileco36thagma.ddns.net</string>-->
