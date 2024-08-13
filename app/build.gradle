@@ -10,7 +10,7 @@ android {    compileSdkVersion 33
         applicationId "com.holanda.bilecoagmaonlineregistration2021"
         minSdkVersion 24
         targetSdkVersion 33                                                                 
-        versionCode 62
+        versionCode 63
         versionName '2.30.7'
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true

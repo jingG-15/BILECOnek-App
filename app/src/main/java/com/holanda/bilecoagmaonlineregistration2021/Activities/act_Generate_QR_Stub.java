@@ -341,11 +341,11 @@ public class act_Generate_QR_Stub extends AppCompatActivity {
 
 
 
-                new Save_to_Local().execute();
+                //new Save_to_Local().execute();
 
 
 
-                Toast.makeText(act_Generate_QR_Stub.this,"Image saved", Toast.LENGTH_LONG).show();
+                //Toast.makeText(act_Generate_QR_Stub.this,"Image saved", Toast.LENGTH_LONG).show();
 
             }else{
                 Toast.makeText(act_Generate_QR_Stub.this,error_msg, Toast.LENGTH_LONG).show();
